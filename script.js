@@ -21,9 +21,9 @@ const perguntas = {
   },
 
   {
-    pergunta: "Quanto é 3 + 2?",
-    opcoes: ["4", "5", "6"],
-    correta: "5"
+    pergunta: "Quanto é 3 + 1?",
+    opcoes: ["3", "4", "5"],
+    correta: "4"
   },
 
   {
@@ -34,7 +34,7 @@ const perguntas = {
 
   {
     pergunta: "Quanto é 4 - 1?",
-    opcoes: ["2", "3", "3"],
+    opcoes: ["2", "3", "4"],
     correta: "3"
   },
 
@@ -51,9 +51,9 @@ const perguntas = {
   },
 
   {
-    pergunta: "Conte: 3, 4, 5, ...?",
-    opcoes: ["6", "7", "8"],
-    correta: "6"
+    pergunta: "Conte: 2, 3, 4, ...?",
+    opcoes: ["5", "6", "7"],
+    correta: "5"
   },
 
   {
