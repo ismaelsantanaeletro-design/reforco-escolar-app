@@ -35,7 +35,7 @@ const perguntas = {
 
       {
         pergunta: "Quanto é 2 + 3?",
-        opcoes: ["4", "6", "6"],
+        opcoes: ["4", "5", "6"],
         correta: "5"
       }
 
