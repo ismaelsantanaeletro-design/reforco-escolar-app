@@ -7,48 +7,215 @@ const perguntas = {
 
   "1ano": {
 
-    matematica: [
+  matematica: [
 
-      {
-        pergunta: "Quanto é 1 + 2?",
-        opcoes: ["3", "2", "4"],
-        correta: "3"
-      },
+    {
+      pergunta: "Quanto é 1 + 1?",
+      opcoes: ["2", "1", "3"],
+      correta: "2"
+    },
 
-      {
-        pergunta: "Quanto é 4 - 1?",
-        opcoes: ["2", "3", "1"],
-        correta: "3"
-      },
+    {
+      pergunta: "Quanto é 2 + 2?",
+      opcoes: ["3", "4", "5"],
+      correta: "4"
+    },
 
-      {
-        pergunta: "Quanto é 5 + 0?",
-        opcoes: ["6", "5", "4"],
-        correta: "5"
-      },
+    {
+      pergunta: "Quanto é 3 + 2?",
+      opcoes: ["4", "5", "6"],
+      correta: "5"
+    },
 
-      {
-        pergunta: "Qual número vem depois do 7?",
-        opcoes: ["8", "6", "9"],
-        correta: "8"
-      },
+    {
+      pergunta: "Quanto é 5 - 2?",
+      opcoes: ["2", "3", "4"],
+      correta: "3"
+    },
 
-      {
-        pergunta: "Quanto é 2 + 3?",
-        opcoes: ["4", "5", "6"],
-        correta: "5"
-      }
+    {
+      pergunta: "Quanto é 4 - 1?",
+      opcoes: ["2", "3", "4"],
+      correta: "3"
+    },
 
-    ],
+    {
+      pergunta: "Qual número vem depois do 6?",
+      opcoes: ["7", "5", "8"],
+      correta: "7"
+    },
 
-    portugues: [],
-    ciencias: [],
-    historia: [],
-    geografia: [],
-    ingles: []
+    {
+      pergunta: "Qual número vem antes do 9?",
+      opcoes: ["7", "8", "10"],
+      correta: "8"
+    },
 
-  },
+    {
+      pergunta: "Conte: 3, 4, 5, ...?",
+      opcoes: ["6", "7", "8"],
+      correta: "6"
+    },
 
+    {
+      pergunta: "Quanto é 2 + 3?",
+      opcoes: ["4", "5", "6"],
+      correta: "5"
+    },
+
+    {
+      pergunta: "Quantos dedos temos em uma mão?",
+      opcoes: ["5", "4", "6"],
+      correta: "5"
+    }
+
+  ],
+
+  portugues: [
+
+    {
+      pergunta: "Qual palavra está escrita corretamente?",
+      opcoes: ["casa", "kaza", "cassa"],
+      correta: "casa"
+    },
+
+    {
+      pergunta: "Qual é uma vogal?",
+      opcoes: ["A", "B", "C"],
+      correta: "A"
+    },
+
+    {
+      pergunta: "Qual palavra começa com B?",
+      opcoes: ["Bola", "Casa", "Pato"],
+      correta: "Bola"
+    },
+
+    {
+      pergunta: "Qual é uma sílaba?",
+      opcoes: ["PA", "BRL", "123"],
+      correta: "PA"
+    },
+
+    {
+      pergunta: "Qual palavra representa um animal?",
+      opcoes: ["Cachorro", "Mesa", "Lápis"],
+      correta: "Cachorro"
+    },
+
+    {
+      pergunta: "Qual palavra é uma cor?",
+      opcoes: ["Azul", "Gato", "Livro"],
+      correta: "Azul"
+    },
+
+    {
+      pergunta: "Complete: CA + SA = ?",
+      opcoes: ["Casa", "Cama", "Capa"],
+      correta: "Casa"
+    },
+
+    {
+      pergunta: "Qual palavra começa com M?",
+      opcoes: ["Mesa", "Bola", "Sapo"],
+      correta: "Mesa"
+    }
+
+  ],
+
+  ciencias: [
+
+    {
+      pergunta: "Qual destes é um animal?",
+      opcoes: ["Cachorro", "Pedra", "Cadeira"],
+      correta: "Cachorro"
+    },
+
+    {
+      pergunta: "Qual parte usamos para ver?",
+      opcoes: ["Olhos", "Pés", "Mãos"],
+      correta: "Olhos"
+    },
+
+    {
+      pergunta: "As plantas precisam de quê para viver?",
+      opcoes: ["Água", "Plástico", "Areia"],
+      correta: "Água"
+    },
+
+    {
+      pergunta: "Qual destes é um ser vivo?",
+      opcoes: ["Árvore", "Mesa", "Vidro"],
+      correta: "Árvore"
+    },
+
+    {
+      pergunta: "Qual animal vive na água?",
+      opcoes: ["Peixe", "Cachorro", "Gato"],
+      correta: "Peixe"
+    }
+
+  ],
+
+  historia: [
+
+    {
+      pergunta: "Quem faz parte da sua família?",
+      opcoes: ["Mãe", "Mesa", "Bola"],
+      correta: "Mãe"
+    },
+
+    {
+      pergunta: "Onde você estuda?",
+      opcoes: ["Na escola", "No mercado", "Na rua"],
+      correta: "Na escola"
+    },
+
+    {
+      pergunta: "Quem é seu professor?",
+      opcoes: ["Quem ensina", "Quem vende", "Quem conserta"],
+      correta: "Quem ensina"
+    },
+
+    {
+      pergunta: "O que comemoramos no aniversário?",
+      opcoes: ["Nascimento", "Trabalho", "Viagem"],
+      correta: "Nascimento"
+    }
+
+  ],
+
+  geografia: [
+
+    {
+      pergunta: "Onde você mora?",
+      opcoes: ["Na cidade", "No céu", "No mar"],
+      correta: "Na cidade"
+    },
+
+    {
+      pergunta: "Qual é o lugar onde você estuda?",
+      opcoes: ["Escola", "Hospital", "Banco"],
+      correta: "Escola"
+    },
+
+    {
+      pergunta: "Onde compramos comida?",
+      opcoes: ["Mercado", "Farmácia", "Posto"],
+      correta: "Mercado"
+    },
+
+    {
+      pergunta: "Onde podemos brincar?",
+      opcoes: ["Parque", "Hospital", "Delegacia"],
+      correta: "Parque"
+    }
+
+  ],
+
+  ingles: []
+
+},
   "2ano": criarPadraoAno(2),
   "3ano": criarPadraoAno(3),
   "4ano": criarPadraoAno(4),
