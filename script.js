@@ -8,67 +8,67 @@ const perguntas = {
 
   matematica: [
 
-    {
-      pergunta: "Quanto é 1 + 1?",
-      opcoes: ["2", "1", "3"],
-      correta: "2"
-    },
+  {
+    pergunta: "Quanto é 1 + 1?",
+    opcoes: ["1", "2", "3"],
+    correta: "2"
+  },
 
-    {
-      pergunta: "Quanto é 2 + 2?",
-      opcoes: ["3", "4", "5"],
-      correta: "4"
-    },
+  {
+    pergunta: "Quanto é 2 + 2?",
+    opcoes: ["3", "4", "5"],
+    correta: "4"
+  },
 
-    {
-      pergunta: "Quanto é 3 + 2?",
-      opcoes: ["4", "5", "6"],
-      correta: "5"
-    },
+  {
+    pergunta: "Quanto é 3 + 2?",
+    opcoes: ["4", "5", "6"],
+    correta: "5"
+  },
 
-    {
-      pergunta: "Quanto é 5 - 2?",
-      opcoes: ["2", "3", "4"],
-      correta: "3"
-    },
+  {
+    pergunta: "Quanto é 5 - 2?",
+    opcoes: ["2", "3", "4"],
+    correta: "3"
+  },
 
-    {
-      pergunta: "Quanto é 4 - 1?",
-      opcoes: ["2", "3", "4"],
-      correta: "3"
-    },
+  {
+    pergunta: "Quanto é 4 - 1?",
+    opcoes: ["2", "3", "3"],
+    correta: "3"
+  },
 
-    {
-      pergunta: "Qual número vem depois do 6?",
-      opcoes: ["7", "5", "8"],
-      correta: "7"
-    },
+  {
+    pergunta: "Qual número vem depois do 6?",
+    opcoes: ["5", "7", "8"],
+    correta: "7"
+  },
 
-    {
-      pergunta: "Qual número vem antes do 9?",
-      opcoes: ["7", "8", "10"],
-      correta: "8"
-    },
+  {
+    pergunta: "Qual número vem antes do 9?",
+    opcoes: ["7", "8", "10"],
+    correta: "8"
+  },
 
-    {
-      pergunta: "Conte: 3, 4, 5, ...?",
-      opcoes: ["6", "7", "8"],
-      correta: "6"
-    },
+  {
+    pergunta: "Conte: 3, 4, 5, ...?",
+    opcoes: ["6", "7", "8"],
+    correta: "6"
+  },
 
-    {
-      pergunta: "Quanto é 2 + 3?",
-      opcoes: ["4", "5", "6"],
-      correta: "5"
-    },
+  {
+    pergunta: "Quanto é 2 + 3?",
+    opcoes: ["4", "5", "6"],
+    correta: "5"
+  },
 
-    {
-      pergunta: "Quantos dedos temos em uma mão?",
-      opcoes: ["5", "4", "6"],
-      correta: "5"
-    }
+  {
+    pergunta: "Quantos dedos temos em uma mão?",
+    opcoes: ["4", "5", "6"],
+    correta: "5"
+  }
 
-  ],
+],
 
   portugues: [
 
