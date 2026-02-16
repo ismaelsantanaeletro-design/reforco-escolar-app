@@ -44,3 +44,23 @@ let anoAtual = "";
 let materiaAtual = "";
 let atual = 0;
 let pontos = 0;
+function escolherAno(ano) {
+
+  anoAtual = ano;
+
+  let html = "<h3>Escolha a matéria:</h3>";
+
+  const materias = perguntas[ano];
+
+  for (let materia in materias) {
+
+    html += `
+      <button onclick="start('${materia}')">
+        ${materia.toUpperCase()}
+      </button>
+    `;
+  }
+
+  document.getElementById("materias").innerHTML = html;
+  document.getElementById("quiz").innerHTML = "";
+}
