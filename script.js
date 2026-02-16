@@ -1,62 +1,46 @@
 const perguntas = {
-  matematica: [
-    {
-      pergunta: "Quanto é 2 + 2?",
-      opcoes: ["3", "4", "5"],
-      correta: "4"
-    }
-  ],
 
-  portugues: [
-    {
-      pergunta: "Qual é o plural de pão?",
-      opcoes: ["pães", "pãoes", "pãos"],
-      correta: "pães"
-    }
-  ]
+  "1ano": {
+
+    matematica: [
+      {
+        pergunta: "Quanto é 1 + 1?",
+        opcoes: ["1", "2", "3"],
+        correta: "2"
+      }
+    ],
+
+    portugues: [
+      {
+        pergunta: "Qual é a primeira letra do alfabeto?",
+        opcoes: ["A", "B", "C"],
+        correta: "A"
+      }
+    ]
+  },
+
+  "2ano": {
+
+    matematica: [
+      {
+        pergunta: "Quanto é 5 + 3?",
+        opcoes: ["6", "7", "8"],
+        correta: "8"
+      }
+    ],
+
+    portugues: [
+      {
+        pergunta: "Plural de flor é?",
+        opcoes: ["flores", "floris", "flor"],
+        correta: "flores"
+      }
+    ]
+  }
+
 };
 
-let atual = 0;
+let anoAtual = "";
 let materiaAtual = "";
-
-function start(materia) {
-  materiaAtual = materia;
-  atual = 0;
-  mostrarPergunta();
-}
-
-function mostrarPergunta() {
-
-  const q = perguntas[materiaAtual][atual];
-
-  let html = `
-    <h2>${q.pergunta}</h2>
-  `;
-
-  q.opcoes.forEach(op => {
-    html += `
-      <button onclick="responder('${op}')">${op}</button><br><br>
-    `;
-  });
-
-  document.getElementById("quiz").innerHTML = html;
-}
-
-function responder(resposta) {
-
-  const q = perguntas[materiaAtual][atual];
-
-  if (resposta === q.correta) {
-    alert("✅ Resposta correta!");
-  } else {
-    alert("❌ Resposta errada!");
-  }
-
-  atual++;
-
-  if (atual < perguntas[materiaAtual].length) {
-    mostrarPergunta();
-  } else {
-    alert("🎉 Fim do quiz!");
-  }
-}
+let atual = 0;
+let pontos = 0;
