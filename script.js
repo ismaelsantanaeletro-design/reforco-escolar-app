@@ -1,3 +1,4 @@
+alert("VERSÃO NOVA CARREGADA");
 // ===============================
 // BANCO DE PERGUNTAS
 // ===============================
