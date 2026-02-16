@@ -1,4 +1,3 @@
-alert("SCRIPT FUNCIONANDO!");
 // ===============================
 // BANCO DE PERGUNTAS
 // ===============================
