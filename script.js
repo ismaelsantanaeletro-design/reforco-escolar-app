@@ -1,4 +1,4 @@
-alert("VERSÃO NOVA CARREGADA");
+alert("SCRIPT FUNCIONANDO!");
 // ===============================
 // BANCO DE PERGUNTAS
 // ===============================
