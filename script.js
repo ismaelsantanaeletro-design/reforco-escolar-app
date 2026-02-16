@@ -113,7 +113,91 @@ const perguntas = {
     ]
   }
 
-};
+,
+
+  "3ano": {
+
+    matematica: [
+
+      {
+        pergunta: "Quanto é 12 + 8?",
+        opcoes: ["18", "20", "22"],
+        correta: "20"
+      },
+
+      {
+        pergunta: "Quanto é 30 ÷ 5?",
+        opcoes: ["5", "6", "7"],
+        correta: "6"
+      }
+
+    ],
+
+    portugues: [
+
+      {
+        pergunta: "Qual é o feminino de gato?",
+        opcoes: ["gata", "gatao", "gatoa"],
+        correta: "gata"
+      },
+
+      {
+        pergunta: "Qual palavra é um adjetivo?",
+        opcoes: ["bonito", "correr", "mesa"],
+        correta: "bonito"
+      }
+
+    ],
+
+    ciencias: [
+
+      {
+        pergunta: "O corpo humano tem quantos sentidos?",
+        opcoes: ["3", "5", "7"],
+        correta: "5"
+      },
+
+      {
+        pergunta: "Qual é o estado da água ao ferver?",
+        opcoes: ["sólido", "líquido", "gasoso"],
+        correta: "gasoso"
+      }
+
+    ],
+
+    historia: [
+
+      {
+        pergunta: "Quem foi Tiradentes?",
+        opcoes: ["herói nacional", "rei", "navegador"],
+        correta: "herói nacional"
+      },
+
+      {
+        pergunta: "O Brasil se tornou independente em?",
+        opcoes: ["1822", "1500", "1889"],
+        correta: "1822"
+      }
+
+    ],
+
+    geografia: [
+
+      {
+        pergunta: "Qual é o maior rio do Brasil?",
+        opcoes: ["Amazonas", "São Francisco", "Paraná"],
+        correta: "Amazonas"
+      },
+
+      {
+        pergunta: "O Brasil tem quantas regiões?",
+        opcoes: ["3", "5", "7"],
+        correta: "5"
+      }
+
+    ]
+
+  }};
 
 let anoAtual = "";
 let materiaAtual = "";
