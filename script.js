@@ -6,47 +6,48 @@ const perguntas = {
 
   "1ano": {
 
-  matematica: [
+    matematica: [
 
-    {
-      pergunta: "Quanto é 1 + 2?",
-      opcoes: ["3", "2", "4"],
-      correta: "3"
-    },
+      {
+        pergunta: "Quanto é 1 + 2?",
+        opcoes: ["3", "2", "4"],
+        correta: "3"
+      },
 
-    {
-      pergunta: "Quanto é 4 - 1?",
-      opcoes: ["2", "3", "1"],
-      correta: "3"
-    },
+      {
+        pergunta: "Quanto é 4 - 1?",
+        opcoes: ["2", "3", "1"],
+        correta: "3"
+      },
 
-    {
-      pergunta: "Quanto é 5 + 0?",
-      opcoes: ["6", "5", "4"],
-      correta: "5"
-    },
+      {
+        pergunta: "Quanto é 5 + 0?",
+        opcoes: ["6", "5", "4"],
+        correta: "5"
+      },
 
-    {
-      pergunta: "Qual número vem depois do 7?",
-      opcoes: ["8", "6", "9"],
-      correta: "8"
-    },
+      {
+        pergunta: "Qual número vem depois do 7?",
+        opcoes: ["8", "6", "9"],
+        correta: "8"
+      },
 
-    {
-      pergunta: "Quanto é 2 + 3?",
-      opcoes: ["4", "6", "5"],
-      correta: "5"
-    }
+      {
+        pergunta: "Quanto é 2 + 3?",
+        opcoes: ["4", "6", "6"],
+        correta: "5"
+      }
 
-  ],
+    ],
 
-  portugues: [],
-  ciencias: [],
-  historia: [],
-  geografia: [],
-  ingles: []
+    portugues: [],
+    ciencias: [],
+    historia: [],
+    geografia: [],
+    ingles: []
 
-},
+  },
+
   "2ano": criarPadraoAno(2),
   "3ano": criarPadraoAno(3),
   "4ano": criarPadraoAno(4),
